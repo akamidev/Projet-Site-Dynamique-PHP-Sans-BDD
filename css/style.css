@@ -1,0 +1,230 @@
+/*---------------------------------------------------------------------------------
+RESET
+---------------------------------------------------------------------------------*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---------------------------------------------------------------------------------
+BASE
+---------------------------------------------------------------------------------*/
+h2 {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #2c961c;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #838282;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1rem;
+  margin: 2rem auto;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+td img {
+  width: 120px;
+  aspect-ratio: 1/1;
+}
+
+/*---------------------------------------------------------------------------------
+NAVIGATION
+---------------------------------------------------------------------------------*/
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+main {
+  padding: 20px;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*---------------------------------------------------------------------------------
+PRODUITS
+---------------------------------------------------------------------------------*/
+.sales-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.sales {
+  background-color: #cb2323;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.denomination {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.price {
+  background-color: #1361c7;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.promo {
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 2rem;
+}
+
+.sales-product img,
+.product-categorie {
+  width: 110px;
+  aspect-ratio: 1/1;
+}
+
+.product-categorie {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.categories {
+  margin: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+}
+
+.product-categorie {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: calc(20% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product-categorie img {
+  width: 100%; /* Ajuster selon le besoin, assurez-vous que les images ne soient pas déformées */
+  height: auto;
+  border-radius: 5px;
+}
+
+/*---------------------------------------------------------------------------------
+FOOTER
+---------------------------------------------------------------------------------*/
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.8em;
+}
