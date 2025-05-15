@@ -12,7 +12,7 @@
 ## 🖼️ Aperçu Visuel
 
 <p align="center">
-  <img src="assets/PHP_Ecomerce.png" alt="Mockup du projet PHP" width="450"/>
+  <img src="img/PHP_Ecomerce.png" alt="Mockup du projet PHP" width="450"/>
 </p>
 
 ---
